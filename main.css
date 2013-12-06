@@ -55,7 +55,7 @@ body {
 }
 
 .main {
-  min-width:900px;
+  min-width: 1200px;
   clear: both;
   margin: 30px auto;
   text-align: center;
@@ -90,18 +90,38 @@ li {
   text-decoration: none;
 }
 
+.header {
+	position: relative;
+	width:  1200px;
+	height: 190px;
+	margin: 0 auto;
+}
+
 div.header h1{
+	position: relative;
 	font-family: 'crimson text';
 	font-size: 64px;
-	letter-spacing: -1px;
+	letter-spacing: -2px;
 	margin-top: 20px;
 }
 
 div.header h5 {
+	position: relative;
 	font-family: 'crimson text';
 	font-size: 23px;
 	margin-top: 20px;
 }
+div.header p {
+	font-size: 18px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+div.header span {
+	color: #369;
+	text-decoration: underline;
+}
+
 .service {
 	width: 700px;
 	margin: 0 auto;
@@ -151,14 +171,15 @@ sup {
 	color: grey;
 	font-size: 11px; }
 
-img.leftArrow {
+
+img.BaseArrow, img.HighArrow {
 	display: none;
 	position: absolute;
 	left: 140px;
 	bottom: 220px;
 }
 
-img.rightArrow {
+img.CampArrow {
 	display: none;
 	position: absolute;
 	right: 140px;
